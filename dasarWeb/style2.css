@@ -1,0 +1,70 @@
+/* Reset margin dan padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: #333;
+}
+
+/* Container flex */
+.container-satu {
+    display: flex;
+    width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    gap: 20px;
+}
+
+/* Sidebar Satu */
+.sidebar-satu {
+    flex: 1;
+    background-color: #f6d365; /* soft yellow */
+    padding: 15px;
+    order: 1;
+    border-radius: 8px;
+}
+
+/* Kolom Utama */
+.kolom-utama {
+    flex: 2;
+    background-color: #fda085; /* peach */
+    padding: 20px;
+    order: 2;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+/* Sidebar Dua */
+.sidebar-dua {
+    flex: 1;
+    background-color: #a1c4fd; /* soft blue */
+    padding: 15px;
+    order: 3;
+    border-radius: 8px;
+}
+
+.sidebar-dua img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+/* Styling link */
+.sidebar-satu ul {
+    padding-left: 20px;
+}
+
+.sidebar-satu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar-satu a:hover {
+    color: #000;
+    text-decoration: underline;
+}
